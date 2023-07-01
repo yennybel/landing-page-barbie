@@ -1,0 +1,75 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--pink);
+}
+.barbie-banner{
+    height: auto;
+   margin-left: 60px;
+   margin-right: 40px;
+   padding: 80px;
+}
+
+.barbie-banner img{
+    border-radius: 15px;
+}
+.section-description {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.section-title{
+    margin-right: 10px;
+    border-right: 6px solid white;
+    width: 375px;
+}
+
+.title{
+    font-size: 50px;
+}
+.titlea{
+    font-size: 40px;
+    color: rgb(233, 245, 181);
+    font-family: sans-serif;
+}
+.section-paragraph {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-end: 0px;
+   margin-inline-start: 0px;
+   font-size: 35px;
+   color: var(--white);
+}
+@media (max-width: 768px) {
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .barbie-banner {
+        display: flex;
+        align-items: center;
+
+    }
+    .barbie-banner img{
+    
+        height: 150%;
+        width: 150%;
+       margin-left: -90px;
+    }
+    .section-description{
+        display: flex;
+        align-items: center;
+    }
+
+    .section-title{
+
+        display: block;
+        pad: 0 15px;
+        text-align: center;
+    }
+    
+}
